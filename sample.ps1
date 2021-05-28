@@ -39,7 +39,7 @@ function SendEmail($Server, $Port, $Sender, $Recipient, $Subject, $Body) {
 
     $SMTPClient = New-Object Net.Mail.SmtpClient($Server, $Port)
     $SMTPClient.EnableSsl = $true
-    $SMTPClient.Credentials = New-Object System.Net.NetworkCredential("AKIAWYACAL52BJPAND2X", "BGGTlV0uNNZH+9KnPo/9fGZ/VKSp78llk4XC1EEkONTA");
+    $SMTPClient.Credentials = New-Object System.Net.NetworkCredential("XXXXXXXXXXXX", "XXXXXXXXXXXXXXX");
     
     
     try {
