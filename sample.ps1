@@ -62,9 +62,8 @@ try{
     $Subject = "CRAS ACCOUNT NOTIFICATION"
     #$Body = "This message was sent from Amazon SES using PowerShell (explicit SSL, port 587)."
 
-    $Sender = "hmc-0225-hm@i.softbank.jp"
+    $Sender = "XXXXX@i.softbank.jp"
     $Recipient = $mail
-    #$Recipient = "kafsebald@gmail.com"
 
     SendEmail $Server $Port $Sender $Recipient $Subject $bodya
     }catch{
