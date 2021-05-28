@@ -33,7 +33,7 @@ function Write-Log() {
     Write-host $mes
     Out-File -InputObject $mes -FilePath $myObject.logfiles -Append  
 }
-
+ 
 function SendEmail($Server, $Port, $Sender, $Recipient, $Subject, $Body) {
     #$Credentials = [Net.NetworkCredential](Get-Credential)
 
